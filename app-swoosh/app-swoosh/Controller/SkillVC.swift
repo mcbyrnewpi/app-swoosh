@@ -9,6 +9,8 @@
 import UIKit
 
 class SkillVC: UIViewController {
+    
+    var player: Player! // essentially promising we'll have this data and it won't be nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
